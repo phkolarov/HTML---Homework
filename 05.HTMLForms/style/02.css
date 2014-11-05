@@ -1,0 +1,87 @@
+#container{
+    width: 430px;
+    height: 350px;
+    background-color: #ffc0cb;
+    position: fixed;
+    top: 50px;
+    left: 550px;
+
+}
+h1{
+    text-align: center;
+    font-family: "Tahoma", Times New Roman;
+    font-style: italic;
+}
+#fform{
+    width: 210px;
+    display: inline-block;
+    margin: 5px;
+    padding-left: 15px;
+
+
+
+}
+
+#sform{
+    width: 180px;
+    display: inline-block;
+    margin: 5px;
+
+    height: 191px;
+}
+
+#firsts{
+    margin-bottom: 0px;
+}
+
+label{
+font-style: italic;
+    font-size: 12px;
+
+}
+
+input[type="time"]{
+    width: 75px;
+
+}
+input{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#date, #date2{
+    width: 200px;
+}
+
+input{
+    height: 20px;
+}
+#space{
+    margin-bottom: 5px;
+}
+
+p{
+    margin: 2px;
+}
+#but{
+    float: right;
+    margin-right: 25px;
+    width: 150px;
+    height: 30px;
+    margin-top: 0px;
+}
+
+#inline{
+
+
+
+}
+
+input[type="number"]{
+
+    border: 1px solid black;
+    width: 63px;
+}
+
+p label{
+    margin-left: 45px;
+}

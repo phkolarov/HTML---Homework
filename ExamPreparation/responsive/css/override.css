@@ -1,0 +1,126 @@
+/* Large desktops and laptops */
+@media (min-width: 740px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 571px) and (max-width: 739px) {
+    .clearfix{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #info{
+       text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    #photo {
+        float: none;
+        display: inline-block;
+        ;
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #photo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   h2   {
+       text-align: center;
+   }
+
+  #profile p{
+       margin: 0;
+       padding: 0;
+      text-align: left;
+   }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 481px) and (max-width: 570px) {
+    .clearfix{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #info{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    #photo {
+        float: none;
+        display: inline-block;
+    ;
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #photo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2   {
+        text-align: center;
+    }
+
+    #profile p{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 480px) {
+    .clearfix{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #info{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    #photo {
+        float: none;
+        display: inline-block;
+    ;
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #photo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2   {
+        text-align: center;
+    }
+
+    #profile p{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link href="style/02.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="container">
+
+    <p><h1>FLIGHT ORDER</h1></p>
+
+    <form method="post" id="fform">
+
+        <div id="space">
+        <label for="firsts">From:</label>
+               <select id="firsts">
+                   <option value="enter">enter a city</option>
+                   <option value="sofia">Sofia</option>
+                   <option value="Pld">Plovdiv</option>
+                   <option value="Vrn">Varna</option>
+               </select>
+        </div>
+       <div>
+           <label for="date">Departure Date</label>
+           <input type="date" id="date" name="datedep" value="2014-03-06"/>
+       </div>
+        <div>
+            <label for="date2">Return Date</label>
+            <input type="date" id="date2" name="datedepe" value="2014-03-13"/>
+        </div>
+        <div id="inline">
+            <!--<div id=""><span>2</span><span>3</span><span>4</span></div>-->
+            <p><label for="12">12+</label>
+            <label for="12">2-12</label>
+            <label for="12">0-2</label></p>
+            <input type="number" value="0" min="12" max="100" id="12"/>
+
+            <input type="number" value="0" min="2" max="12" id="2"/>
+
+            <input type="number" value="0" min="0" max="2" id="0"/>
+        </div>
+
+    </form>
+
+    <form method="post" id="sform">
+        <div>
+            <label for="seconds">To:</label>
+            <select id="seconds">
+                <option value="enter">enter a city</option>
+                <option value="sofia">Sofia</option>
+                <option value="Pld">Plovdiv</option>
+                <option value="Vrn">Varna</option>
+            </select>
+        </div>
+        <div>
+            <p><input type="checkbox" name="agree" id="agree" value="yes"> <label for="agree">Prefer directs </label></p>
+        </div>
+        <div>
+            <label for="time1">Time Interval</label>
+            <div><input type="time" id="time1" value="00:20">
+            <input type="time" id="time2" value="05:00">
+            </div>
+        </div>
+        <div>
+            <label for="time2">Time Interval</label>
+            <div>
+            <input type="time" name="time" id="time3" value="16:00">
+            <input type="time" id="time4" value="22:00">
+            </div>
+        </div>
+        <div>
+            <label for="class">Choose class:</label>
+            <select id="class">
+                <option value="eco">Economy</option>
+                <option value="bus">Business</option>
+                <option value="ext">Extra</option>
+
+            </select>
+        </div>
+    </form>
+
+    <div>
+        <input type="button" id="but" value="Search">
+    </div>
+</div>
+</body>
+</html>

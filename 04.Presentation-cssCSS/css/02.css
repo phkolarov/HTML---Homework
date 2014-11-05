@@ -1,0 +1,77 @@
+body{
+
+    margin: 0;
+
+}
+
+img{
+    height: 300px;
+}
+
+.friend{
+    display: inline-block;
+    margin-top: 150px;
+}
+
+#allFriends{
+    margin-left: 50px;
+}
+
+div.friend>img[type="vladoHula"]{
+    position: fixed;
+    left: 50px;
+    top: 200px
+}
+
+div.friend>img[type="PetiaHula"]{
+    position: fixed;
+    left: 190px;
+    top: 200px
+}
+div.friend>img[type="TediHula"]{
+    height: 200px;
+    position: fixed;
+    left: 270px;
+    top: 330px
+}
+div.friend>img[type="NakovHula"]{
+    height: 330px;
+    position: fixed;
+    left: 410px;
+    top: 190px
+}
+div.friend>img[type="AlexHula"] {
+    height: 310px;
+    position: fixed;
+    left: 500px;
+    top: 220px
+}
+div.friend>img[type="VladoKHula"]{
+    height: 310px;
+    position: fixed;
+    left: 650px;
+    top: 220px
+}
+@font-face {
+    font-family: Animated;
+    src: url(resources/Animated.ttf);
+}
+span{
+    font-family: "Animated";
+    font-size: 45px;
+    color: #ffca20;
+    position: fixed;
+    top: 20px;
+    left: 500px;
+}
+
+#background{
+    background-image: url("resources/HawaiiBackground.png");
+    width: 900px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-color: skyblue;
+}
+#sun{
+    background: radial-gradient(circle at 162px 130px, white 4.5%, #e9e69b 5%, white 10%, #0068DB 100%)
+}

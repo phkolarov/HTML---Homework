@@ -1,0 +1,98 @@
+.container{
+    width: 572px;
+    height: 350px;
+    background-color: #eeeeee;
+    font-family: "Arial", Times New Roman,sans-serif;
+}
+h1 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c6ea7;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+p{
+    font-family: "Arial", Times New Roman, sans-serif;
+    font-size: 15px;
+    color: #8f8f8f;
+    padding-left: 20px;
+
+}
+span{
+    font-family: "Arial", Times New Roman, sans-serif;
+    font-size: 15px;
+    color: #8f8f8f;
+}
+
+.legend1{
+    font-weight: bold;
+    color: #4c6ea7;
+}
+legend #reg{
+    color: #4c6ea7;
+}
+input{
+    color: #8f8f8f;
+    height: 20px;
+    width: 230px;
+    margin: 5px;
+}
+
+#firstform{
+    width: 265px;
+    height: 350px;
+    display: inline-block;
+    float: left;
+    margin-left: 16px;
+    border: 1px solid black;
+    padding-right: -10px;
+}
+#secondform{
+    width: 265px;
+    display: inline-block;
+    float: right;
+    background-color: #31709f;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.student{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+}
+input[type=button]{
+    background-color: #31709F;
+    border-color: #e09a0b;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 35px;
+
+
+
+    float: right;
+
+}
+#lcheckbox{
+    font-size: 10px;
+    color: white;
+    vertical-align: super;
+    display: inline-block;
+    border: 1px solid black;
+
+}
+#checkbox{
+    width: 12px;
+}
+
+#for a{
+    color: white;
+    font-size: 12px;
+    position:absolute;
+    top:290px; bottom:0; left:460px; right:0;
+
+
+
+
+}

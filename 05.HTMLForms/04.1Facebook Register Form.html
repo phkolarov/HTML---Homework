@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Facebook Register Form</title>
+    <link href="style/04.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <p><h1>fakebook<span> &reg;</span></h1></p>
+    <h2><p>Registration</p></h2>
+<p>It is safe and it will aways be!</p>
+
+<div id="fix1">
+
+
+    <fieldset>
+            <legend>None-Important Information</legend>
+     <form id="firstF" method="post">
+
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <input type="text" name="email" placeholder="Your Email">
+        <input type="text" name="phone" placeholder="Phone Number">
+        <input type="password" name="password" placeholder="Your Password">
+        <input type="text" name="website" placeholder="Website">
+        <div><label for="date">Birthday</label></div>
+        <input type="datetime-local" id="date" name="date" value="2014-05-09T13:58:00.00">
+        <div><input type="radio" id="male" name="male">Male
+        <input type="radio" id="female" name="male">Female
+        <input type="radio" id="other" name="male" tabindex="0">Other
+        </div>
+     </form>
+   </fieldset>
+</div>
+
+
+
+<div id="fix2">
+
+    <fieldset>
+        <legend>Important Information*required</legend>
+        <form id="secondF" method="post">
+            <select id="country" name="country">
+                <option value="Value 1" selected="selected">Contry</option>
+                <option value="Value 2" >Sofia</option>
+                <option value="Value 3">Pernik</option>
+            </select>
+            <input type="text" name="village" placeholder="Village">
+            <input type="text" name="district" placeholder="District">
+            <input type="text" name="street" placeholder="Street">
+            <input type="text" name="nr" placeholder="Nr">
+            <input type="password" name="floor" placeholder="Floor">
+            <input type="text" name="ap" placeholder="Ap Nr">
+            <div><label for="color">Door Color</label></div>
+            <input type="color" id="color" name="color" value="#FF3399">
+            <input type="text" name="watter" placeholder="Water Meter Nr">
+
+
+            <select name="panties">
+                <option value="Value 1" selected="selected">Aunt Panties'Size</option>
+                <option value="Value 2" >shit</option>
+                <option value="Value 3">shit2</option>
+            </select>
+            <div><label for="sss">More Personal Information</label></div>
+            <div><textarea id="sss" name="text" placeholder="This is a multi-line text field"></textarea>
+            </div>
+
+        </form>
+    </fieldset>
+
+</div>
+        <div class="butt1">
+            <input type="button" value="Clear form" />
+        </div>
+
+        <div class="butt2">
+            <input type="submit" value="Register" />
+        </div>
+
+
+
+</div>
+</body>
+</html>

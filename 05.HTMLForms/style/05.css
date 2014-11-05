@@ -1,0 +1,94 @@
+#container{
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+#laptopbox{
+    width: 690px;
+    display: inline-block;
+}
+
+.box{
+    width: 200px;
+    height: 265px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid lightskyblue;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: "Tahoma";
+}
+
+p>span{
+    font-weight: bold;
+    color: #495ed4;
+}
+.price{
+background-color: #2e425a;
+ width:130px;
+    height: 30px;
+    border-radius: 5px 0px 10px 0px;
+    float: right;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.box:hover{
+    border: 1px solid;
+    border-color: black ;
+}
+a, a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+.inline{
+    margin: 7px;
+    display: inline-block;
+}
+
+#sliderbox{
+    width: 220px;
+    height: 552px;
+    border: 1px solid lightskyblue;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    background-color: #d8eef9;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    padding: 5px;
+    color: #3e5573;
+
+}
+#sliderbox>input{
+    float: left;
+}
+.left{
+    float: left;
+    display: inline-block;
+}
+
+.right{
+    float: right;
+    display: inline-block;
+}
+input[type="range"]{
+    width: 200px;
+}
+
+#sliderbox>div{
+    margin-bottom: 5px;
+}
+img[name="new"]{
+   position: fixed;
+   top: 300px;
+    left: 600px;
+}
+h1{
+    font-family: "Tahoma", sans-serif;
+    color: #046396;
+}
+
+p{color: dimgrey}

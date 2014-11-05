@@ -1,0 +1,250 @@
+﻿@mixin vertical-gradient($start-color) {
+    background: -webkit-linear-gradient($start-color, #f1e5e5);
+}
+
+@mixin horizontal-gradient($start-color) {
+    background: -webkit-linear-gradient(left, $start-color, #f1e5e5);
+}
+
+@mixin diagonal-gradient($start-color) {
+    background: -webkit-linear-gradient(left top, $start-color, #f1e5e5);
+}
+
+@mixin radial-gradient($start-color) {
+    background: radial-gradient($start-color, #f1e5e5);
+}
+
+@mixin box-size(){
+    display:inline-block;
+    width:110px;
+    height: 110px;
+    margin-left: auto;
+    
+}
+
+body {
+    color: darkgray;
+    background-color: darkgray;
+    font-family: Tahoma, sans-serif;
+}
+
+#wrapper {
+    background-color: white;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    header {
+        display: block;
+       
+    }
+
+    .linear {
+        
+        margin: 60px;
+        padding: 20px;
+        border: 1px solid black;
+    }
+
+   article{
+       border:1px solid black;
+       text-align: center;
+       padding-bottom: 10px;
+       margin-bottom: 10px;
+   }
+    
+
+    .linear article:nth-child(2) .innerContainer {
+         margin-left: 10px;
+         
+        
+        .purple {
+            @include vertical-gradient(purple);
+            @include  box-size;
+        }
+         .blue {
+            @include vertical-gradient(blue);
+            @include  box-size;
+        }
+         
+           .green {
+            @include vertical-gradient(green);
+            @include  box-size;
+        }
+            .yellow {
+            @include vertical-gradient(yellow);
+            @include  box-size;
+        }
+             .orange {
+            @include vertical-gradient(orange);
+            @include  box-size;
+        }
+              .red {
+            @include vertical-gradient(red);
+            @include  box-size;
+        }
+    }
+
+     .linear article:nth-child(3) .innerContainer {
+         margin-left: 10px;
+         
+        
+        .purple {
+            @include horizontal-gradient(purple);
+            @include  box-size;
+        }
+         .blue {
+            @include horizontal-gradient(blue);
+            @include  box-size;
+        }
+        
+           .green {
+            @include horizontal-gradient(green);
+            @include  box-size;
+        }
+            .yellow {
+            @include horizontal-gradient(yellow);
+            @include  box-size;
+        }
+             .orange {
+            @include horizontal-gradient(orange);
+            @include  box-size;
+        }
+              .red {
+            @include horizontal-gradient(red);
+            @include  box-size;
+        }
+    }
+
+       .linear article:nth-child(4) .innerContainer {
+         margin-left: 10px;
+         
+        
+        .purple {
+            @include diagonal-gradient(purple);
+            @include  box-size;
+        }
+         .blue {
+            @include diagonal-gradient(blue);
+            @include  box-size;
+        }
+         
+           .green {
+            @include diagonal-gradient(green);
+            @include  box-size;
+        }
+            .yellow {
+            @include diagonal-gradient(yellow);
+            @include  box-size;
+        }
+             .orange {
+            @include diagonal-gradient(orange);
+            @include  box-size;
+        }
+              .red {
+            @include diagonal-gradient(red);
+            @include  box-size;
+        }
+    }
+
+       .radial{
+
+           article{
+               margin-left: auto;
+               margin-right: auto;
+               padding: 10px;
+               display:block;
+               width:700px;
+               height: 110px;
+               border: 1px solid black;
+           }
+           border:1px solid black;
+           margin: 60px;
+       }
+      
+
+        .radial article:nth-child(2) .innerContainer{
+            margin-left:10px;
+             .purple {
+            @include  radial-gradient(purple);
+            @include  box-size;
+        }
+         .blue {
+            @include  radial-gradient(blue);
+            @include  box-size;
+        }
+          
+           .green {
+            @include  radial-gradient(green);
+            @include  box-size;
+        }
+            .yellow {
+            @include  radial-gradient(yellow);
+            @include  box-size;
+        }
+             .orange {
+            @include  radial-gradient(orange);
+            @include  box-size;
+        }
+              .red {
+            @include  radial-gradient(red);
+            @include  box-size;
+        }
+        }
+
+
+
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    nav {
+        ul {
+            list-style-type: none;
+            
+
+            li {
+                text-decoration: none;
+                
+
+                a {
+                    position:fixed;
+                    margin-left: 100px;
+                    width: 120px;
+                    height: 30px;
+                    float: left;
+                    border: 3px solid #5e5e5e;
+                    text-align: center;
+                    line-height: 30px;
+                    text-decoration: none;
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: bold;
+
+
+                    &:hover{
+                        background-color: gray;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        ul {
+            text-align: center;
+            list-style-type: none;
+            padding-bottom: 20px;
+            li {
+                a {
+                    text-align: center;
+                    text-decoration: none;
+                    
+                }
+            }
+        }
+    }
+}

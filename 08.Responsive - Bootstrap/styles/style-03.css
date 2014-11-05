@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.navbox{
+    height: 60px;
+    background-color: cadetblue;
+    display: block;
+}
+
+.mainmenu ul li:hover{
+    background-color: cadetblue;
+}
+
+aside ul{
+    list-style-type: none;
+}
+
+aside ul li{
+
+    border: 1px solid #495ed4;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+aside ul li:hover{
+    background-color: cadetblue;
+}
+
+footer{
+    border: 0;
+    margin-top: 40px;
+}

@@ -1,0 +1,18 @@
+table, th, td{
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+#nested tr td{
+    padding: 5px;
+    font-size: 45px;
+
+    font-family: "Tahoma";
+
+}
+
+td img{
+    padding: 10px;
+
+}

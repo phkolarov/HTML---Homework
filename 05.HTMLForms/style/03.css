@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body>div{
+    margin-left: 550px;
+    margin-top: 200px;
+}
+
+img{
+  width: 500px;
+}
+
+input{
+    font-size: 15px;
+
+    height: 45px;
+
+}
+span{
+    font-size: 20px;
+
+}
+
+
+div#mar>span {
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+#mar{
+
+    font-size: 25px;
+    vertical-align: bottom;
+    display: inline-block;
+
+}
+input[type="search"]{
+    width: 140px;
+}
+
+input[name="wordbut"]{
+    width: 50px;
+    display: inline;
+}

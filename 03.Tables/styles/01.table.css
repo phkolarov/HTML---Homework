@@ -1,0 +1,24 @@
+th {
+  font-size: 20px;
+  text-align: left;
+
+}
+
+.colgrup{
+    width: 50px;
+
+
+}
+.colgrup2{
+ width: 170px;
+}
+table, th, td{
+   font-family: "Arial";
+}
+
+th{
+    padding-bottom: 10px;
+}
+td{
+   padding: 5px;
+}

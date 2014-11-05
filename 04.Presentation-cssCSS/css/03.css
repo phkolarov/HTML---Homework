@@ -1,0 +1,96 @@
+form{
+    background-image: url("resources/formBackground.jpg");
+    width: 450px;
+    height: auto;
+    font-family: "Tahoma", Times New Roman, Seriferif;
+    color: white;
+
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-left: 500px;
+
+}
+
+input{
+    font-size: 15px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+
+.fields{
+    border: 1px solid black;
+    margin: 1px;
+    color: #000000;
+    font-size: 15px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 5px;
+    margin: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px;
+    padding-top: 5px;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+.radio{
+    text-align: left;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+textarea{
+    width: 209px;
+    height: 60px;
+    vertical-align: top;
+
+}
+
+#name, #email, #phone, #postcode, #Country, #cardnum, #seccode,#namecard{
+
+    float: right;
+    height: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    padding-right: 10px;
+
+}
+
+
+
+.inline{
+    display: inline-block;
+}
+
+#address{
+    margin-left: 120px;
+    border-radius: 5px;
+}
+
+#button{
+    width: 120px;
+    height: 50px;
+    border: 1px solid #04152f;
+    background-color: #04152f;
+    border-radius: 25px;
+    margin: 15px auto;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 45px;
+}
+
+#button:hover{
+    background-color: #4ca0db;
+    border: 1px solid #4ca0db;
+}

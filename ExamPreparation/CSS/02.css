@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper{
+    font-family: "Releway" , sans-serif;
+    background-image: url("images2/background-large.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: 50% 15%;
+}
+
+.headbox{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.headbox ul{
+    list-style-type: none;
+    display: block;
+    width: 700px;
+    margin-top: 20px;
+
+}
+#menu{
+
+    float: right;
+}
+
+.headbox{
+    margin-top: 30px;
+}
+
+.headbox ul li a{
+
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    transition: background-color 500ms;
+}
+
+.headbox ul li a:hover{
+        background-color: dodgerblue;
+}
+
+.headbox img{
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.headbox img:hover{
+    transform: rotate(60deg);
+}
+
+
+h2{
+
+    font-family: "Releway" , sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    color: darkgray;
+}
+
+main{
+    width: 960px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkgray;
+}
+section{
+    display: inline-block;
+    margin-top: 30px;
+}
+.box{
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+
+.section img{
+    float: left;
+    width: 50px;
+}
+
+.section>h3{
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.links{
+
+padding-top: 10px;
+}
+
+#bluebox{
+    width: 100%;
+    height: 10px;
+    background-color: dodgerblue;
+}
+
+#darkbox{
+    width: 100%;
+    height: 100px;
+    background-color: dimgrey;
+}
+
+#darkbox p{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: darkgray;
+}
+
+#textfield{
+
+    text-align: center;
+    margin: 0px;
+    position: static;
+
+    top: 200px;
+    color: white;
+}
+
+#but{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    -webkit-transition: background 500ms;
+    -moz-transition: background 500ms;
+    -ms-transition: background 500ms;
+    -o-transition: background 500ms;
+    transition: background 500ms;
+}
+
+#but:hover{
+    background-color: rgba(32, 30, 40, 0.29);
+}

@@ -1,0 +1,150 @@
+body{
+    background-color: #101415;
+}
+.wrapper{
+    width: 1165px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Tahoma", sans-serif;
+    font-size: 15px;
+}
+
+.wrapper>header{
+
+}
+
+header div ul>li>a{
+    text-decoration: none;
+    color: grey;
+    font-family: "Tahoma", sans-serif;
+    font-size: 20px;
+
+}
+header>div>ul>li{
+    float: left;
+    position: relative;
+    list-style-type: none;
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    display: table-cell;
+    margin-top: 3px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 8px;
+    }
+
+#bannerb{
+    height: 58px;
+    background-color: #ECECEC;
+    margin-top: -5px;
+}
+#bannerb ul li:hover{
+    background-color: #626161;
+
+}
+#bannerb ul li:hover  p{
+
+    color: white;
+
+}
+
+header>div>ul{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper>footer{
+    background-color: #9FD63D;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 1165px;
+    height: 100px;
+    font-family: "Tahoma", sans-serif;
+    clear: both;
+
+}
+
+.wrapper nav{
+    float: right;
+
+    margin-right: 40px;
+    width: 250px;
+}
+.wrapper nav section{
+    border: 1px solid grey;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+#sec1{
+    background-color: #EEEEEE;
+    padding: 15px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 15px;
+
+}
+
+#sec2{
+
+    padding: 15px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 15px;
+
+}
+
+
+.wrapper main{
+    width: 1090px;
+}
+main #welcome{
+    margin: 30px 50px;
+    width: 700px;
+    height: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+
+}
+#products{
+    margin: 30px 50px;
+    width: 700px;
+    height:500px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border: 1px solid lightgrey;
+    margin-bottom: 50px;
+
+}
+
+
+.title{
+    font-family: "Tahoma", sans-serif;
+    font-size: 25px;
+    line-height: 2px;
+    color: #84BE19;
+    font-weight: bold;
+
+
+}
+
+img[name="pic"]{
+    float: left;
+    margin: 15px;
+}
+.leftimage{
+    float: left;
+    padding-right: 15px;
+
+}
+
+.box{
+    height: 130px;
+    margin: 10px;
+}

@@ -1,0 +1,87 @@
+html, body {
+    height: 99%;
+    padding: 0;
+    margin: 0;
+}
+#container{
+    position: absolute;
+    height: 253px;
+    background-color: #234465;
+    display: table-cell;
+    vertical-align: bottom;
+    margin-top: 36.5%;
+    width: 99.9%;
+
+
+}
+
+footer{
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 5px;
+    width: 230px;
+    font-family: "Tahoma", sans-serif;
+
+
+
+}
+
+
+.button{
+    width: 180px;
+    height: 50px;
+    border: 2px solid #ff9c00;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+span{
+    line-height: 45px;
+    color: white;
+    font-weight: bold;
+    font-family: "Tahoma", sans-serif;
+
+}
+p{
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: "Tahoma", sans-serif;
+    color: #ff9c00;
+    text-align: left;
+
+}
+.box>ul>li{
+    list-style: none;
+    display: table-cell;
+    position: relative;
+    float: left;
+    width: 150px;
+    text-align: left;
+    margin: 2px;
+    color: white;
+    margin-left: -34px;
+
+}
+.box>ul>li a{
+    text-decoration: none;
+    color: white;
+}
+
+#text {
+    color: white;
+    text-align: left;
+    font-weight: normal;
+}
+
+#box1>.button:hover{
+    background-color: #ff9c00;
+}
+
+#box4{
+    text-align: left;
+}

@@ -1,0 +1,23 @@
+table,th,td{
+    border: 1px solid black;
+    font-family: "Verdana";
+    padding: 2px;
+
+}
+#first{
+font-size: 20px;
+    padding: 5px;
+}
+#second{
+    font-size: 15px;
+    padding: 1px;
+
+}
+
+tr#second th{
+    padding: 5px;
+
+}
+tfoot tr td{
+    text-align: right;
+}

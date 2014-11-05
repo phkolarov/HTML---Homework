@@ -1,0 +1,108 @@
+.face   {
+    height:400px;
+    width:400px;
+    border-radius: 200px;
+    background:yellow;
+    position: fixed;
+    margin-left: 400px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+.leftEye{
+    height:80px;
+    width:80px;
+    border-radius: 200px;
+    background:white;
+    border-radius: 100px;
+    position: fixed;
+    display: inline-block;
+    margin-left: 480px;
+    margin-top: 100px;
+    border: 2px solid black
+}
+
+.rightEye{
+    height:80px;
+    width:80px;
+    border-radius: 200px;
+    background:white;
+    border-radius: 100px;
+    position: fixed;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 100px;
+    border: 2px solid black
+}
+.nose{
+    height:50px;
+    width:50px;
+    border-radius: 200px;
+    background:red;
+    border-radius: 100px;
+    position: fixed;
+    display: inline-block;
+    margin-left: 580px;
+    margin-top: 200px;
+    border: 2px solid black
+}
+
+.mouth{
+    height:80px;
+    width:210px;
+    border-radius: 50px / 45px;
+    background:white;
+    margin-left: 500px;
+    margin-top: 280px;
+    position: fixed;
+    display: inline-block;
+    border: 2px solid black
+}
+
+.th1{
+    height:45px;
+    width:60px;
+    border-radius: 0 0 10px 10px;
+    background:white;
+    margin-left: 547px;
+    margin-top: 281px;
+    position: fixed;
+    display: inline-block;
+    border: 2px solid black
+}
+
+.th2{
+    height:45px;
+    width:60px;
+    border-radius: 0 0 10px 10px;
+    background:white;
+    margin-left: 608px;
+    margin-top: 281px;
+    position: fixed;
+    display: inline-block;
+    border: 2px solid black
+}
+.leftPupil {
+    height: 20px;
+    width: 20px;
+    border-radius: 200px;
+    background: black;
+    border-radius: 100px;
+    position: fixed;
+    display: inline-block;
+    margin-left: 530px;
+    margin-top: 140px;
+    border: 2px solid black;
+}
+.rightPupil {
+    height: 20px;
+    width: 20px;
+    border-radius: 200px;
+    background: black;
+    border-radius: 100px;
+    position: fixed;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 100px;
+    border: 2px solid black;
+}

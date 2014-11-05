@@ -1,0 +1,67 @@
+.t td{
+font-size: 12px;
+}
+table, th, td{
+    border: 1px solid black;
+    font-family: "Tahoma";
+
+}
+
+
+.head{
+    font-size: 25px;
+    padding: 15px;
+
+}
+.bottom{
+    vertical-align: bottom;
+    height: 60px;
+    width: 60px;
+
+}
+.top{
+    vertical-align: top;
+    height: 60px;
+    width: 60px;
+}
+
+.left{
+    text-align: left;
+    height: 60px;
+    width: 60px;
+}
+.right{
+    text-align: right;
+    height: 60px;
+    width: 60px;
+}
+.center{
+    text-align: center;
+}
+
+#beer{
+    font-size: 25px;
+    padding: 15px;
+
+}
+#small1{
+    font-size: 7px;
+    padding: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    padding-top: 14px;
+}
+#small2{
+    font-size: 7px;
+    padding: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+
+}
+#stable{
+margin: 3px;
+    font-size: 10px;
+
+}
